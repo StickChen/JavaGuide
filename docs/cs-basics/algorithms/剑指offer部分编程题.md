@@ -583,7 +583,7 @@ public ListNode Merge(ListNode list1,ListNode list2) {
 示例代码：
 
 ```java
-//左程云的《程序员代码面试指南》的答案
+//左程云的《程序员代码思考指南》的答案
 import java.util.Stack;
  
 public class Solution {

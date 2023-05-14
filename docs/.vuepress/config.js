@@ -2,7 +2,7 @@ const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
   title: "JavaGuide",
-  description: "Java学习&&面试指南",
+  description: "Java学习&&思考指南",
   dest: "./dist",
   head: [
     [
@@ -39,8 +39,8 @@ module.exports = config({
     author: "Guide哥",
     repo: "https://github.com/Snailclimb/JavaGuide",
     nav: [
-      { text: "Java面试指南", icon: "java", link: "/", },
-      { text: "Java面试指北", icon: "java", link: "https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7?#%20%E3%80%8A%E3%80%8AJava%E9%9D%A2%E8%AF%95%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8C%97%20%20%E6%89%93%E9%80%A0%E4%B8%AA%E4%BA%BA%E7%9A%84%E6%8A%80%E6%9C%AF%E7%AB%9E%E4%BA%89%E5%8A%9B%E3%80%8B%E3%80%8B", },
+      { text: "Java思考指南", icon: "java", link: "/", },
+      { text: "Java思考指北", icon: "java", link: "https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7?#%20%E3%80%8A%E3%80%8AJava%E9%9D%A2%E8%AF%95%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8C%97%20%20%E6%89%93%E9%80%A0%E4%B8%AA%E4%BA%BA%E7%9A%84%E6%8A%80%E6%9C%AF%E7%AB%9E%E4%BA%89%E5%8A%9B%E3%80%8B%E3%80%8B", },
       {
         text: "Java精选", icon: "file", icon: "java",
         items: [
@@ -54,8 +54,8 @@ module.exports = config({
       {
         text: "PDF资源", icon: "pdf",
         items: [
-          { text: "JavaGuide面试突击版", link: "https://t.1yb.co/Fy1e", },
-          { text: "消息队列常见知识点&面试题总结", link: "https://t.1yb.co/Fy0u", },
+          { text: "JavaGuide思考突击版", link: "https://t.1yb.co/Fy1e", },
+          { text: "消息队列常见知识点&思考题总结", link: "https://t.1yb.co/Fy0u", },
           { text: "图解计算机基础!", link: "https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=100021725&idx=1&sn=2db9664ca25363139a81691043e9fd8f&chksm=4ea19a1679d61300d8990f7e43bfc7f476577a81b712cf0f9c6f6552a8b219bc081efddb5c54#rd" }
         ],
       },
@@ -134,7 +134,7 @@ module.exports = config({
           {
             title: "容器", prefix: "collection/",
             children: [
-              "java集合框架基础知识&面试题总结", "java集合使用注意事项",
+              "java集合框架基础知识&思考题总结", "java集合使用注意事项",
               {
                 title: "源码分析",
                 children: ["arraylist-source-code", "hashmap-source-code", "concurrent-hash-map-source-code"],
@@ -143,7 +143,7 @@ module.exports = config({
           {
             title: "并发编程", prefix: "concurrent/",
             children: [
-              "java并发基础常见面试题总结", "java并发进阶常见面试题总结",
+              "java并发基础常见思考题总结", "java并发进阶常见思考题总结",
               {
                 title: "重要知识点",
                 children: ["java线程池学习总结", "并发容器总结", "拿来即用的java线程池最佳实践", "aqs原理以及aqs同步组件总结", "reentrantlock",
@@ -171,13 +171,13 @@ module.exports = config({
           {
             title: "计算机网络", prefix: "network/", icon: "network",
             children: [
-              "计算机网络常见面试题", "谢希仁老师的《计算机网络》内容总结", "HTTPS中的TLS"
+              "计算机网络常见思考题", "谢希仁老师的《计算机网络》内容总结", "HTTPS中的TLS"
             ],
           },
           {
             title: "操作系统", prefix: "operating-system/", icon: "caozuoxitong",
             children: [
-              "操作系统常见面试题&知识点总结", "linux-intro", "shell-intro"
+              "操作系统常见思考题&知识点总结", "linux-intro", "shell-intro"
             ],
           },
           {
@@ -203,7 +203,7 @@ module.exports = config({
           {
             title: "MySQL", prefix: "mysql/",
             children: [
-              "mysql知识点&面试题总结",
+              "mysql知识点&思考题总结",
               "a-thousand-lines-of-mysql-study-notes",
               "mysql-high-performance-optimization-specification-recommendations",
               "mysql-index", "mysql-logs", "transaction-isolation-level",
@@ -213,7 +213,7 @@ module.exports = config({
           },
           {
             title: "Redis", prefix: "redis/",
-            children: ["redis知识点&面试题总结", "3-commonly-used-cache-read-and-write-strategies"],
+            children: ["redis知识点&思考题总结", "3-commonly-used-cache-read-and-write-strategies"],
           },
         ],
       },
@@ -271,7 +271,7 @@ module.exports = config({
           "读写分离&分库分表", "负载均衡",
           {
             title: "消息队列", prefix: "message-queue/",
-            children: ["message-queue", "kafka知识点&面试题总结", "rocketmq-intro", "rocketmq-questions", "rabbitmq-intro"],
+            children: ["message-queue", "kafka知识点&思考题总结", "rocketmq-intro", "rocketmq-questions", "rabbitmq-intro"],
           },
         ],
       }, {

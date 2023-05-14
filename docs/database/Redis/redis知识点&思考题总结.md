@@ -1,5 +1,5 @@
 ---
-title: Redis知识点&面试题总结
+title: Redis知识点&思考题总结
 category: 数据库
 tag:
   - Redis

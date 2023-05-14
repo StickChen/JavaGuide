@@ -638,7 +638,7 @@ private void expungeStaleEntries() {
 
 这里首先是会进行探测式清理工作，从`table`的起始位置往后清理，上面有分析清理的详细流程。清理完成之后，`table`中可能有一些`key`为`null`的`Entry`数据被清理掉，所以此时通过判断`size >= threshold - threshold / 4` 也就是`size >= threshold * 3/4` 来决定是否扩容。
 
-我们还记得上面进行`rehash()`的阈值是`size >= threshold`，所以当面试官套路我们`ThreadLocalMap`扩容机制的时候 我们一定要说清楚这两个步骤：
+我们还记得上面进行`rehash()`的阈值是`size >= threshold`，所以当思考官套路我们`ThreadLocalMap`扩容机制的时候 我们一定要说清楚这两个步骤：
 
 ![](./images/thread-local/24.png)
 

@@ -1,5 +1,5 @@
 ---
-title: Java基础知识&面试题总结
+title: Java基础知识&思考题总结
 category: Java
 tag:
   - Java基础
@@ -87,7 +87,7 @@ Java 语言既具有编译型语言的特征，也具有解释型语言的特征
 
 ### Java 和 C++的区别?
 
-我知道很多人没学过 C++，但是面试官就是没事喜欢拿咱们 Java 和 C++ 比呀！没办法！！！就算没学过 C++，也要记下来！
+我知道很多人没学过 C++，但是思考官就是没事喜欢拿咱们 Java 和 C++ 比呀！没办法！！！就算没学过 C++，也要记下来！
 
 - 都是面向对象的语言，都支持封装、继承和多态
 - Java 不提供指针来直接访问内存，程序内存更加安全
@@ -367,7 +367,7 @@ public boolean equals(Object anObject) {
 
 ### hashCode()与 equals()
 
-面试官可能会问你：“你重写过 `hashcode` 和 `equals`么，为什么重写 `equals` 时必须重写 `hashCode` 方法？”
+思考官可能会问你：“你重写过 `hashcode` 和 `equals`么，为什么重写 `equals` 时必须重写 `hashCode` 方法？”
 
 **1)hashCode()介绍:**
 

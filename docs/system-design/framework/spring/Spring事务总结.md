@@ -1,7 +1,7 @@
 
 # Spring 事务总结
 
-大家好，我是 Guide 哥，前段时间答应读者的 **Spring 事务**分析总结终于来了。这部分内容比较重要，不论是对于工作还是面试，但是网上比较好的参考资料比较少。
+大家好，我是 Guide 哥，前段时间答应读者的 **Spring 事务**分析总结终于来了。这部分内容比较重要，不论是对于工作还是思考，但是网上比较好的参考资料比较少。
 
 如果本文有任何不对或者需要完善的地方，请帮忙指出！Guide 哥感激不尽！
 
@@ -433,7 +433,7 @@ Class B {
 - **`TransactionDefinition.PROPAGATION_NOT_SUPPORTED`**: 以非事务方式运行，如果当前存在事务，则把当前事务挂起。
 - **`TransactionDefinition.PROPAGATION_NEVER`**: 以非事务方式运行，如果当前存在事务，则抛出异常。
 
-更多关于事务传播行为的内容请看这篇文章：[《太难了~面试官让我结合案例讲讲自己对 Spring 事务传播行为的理解。》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486668&idx=2&sn=0381e8c836442f46bdc5367170234abb&chksm=cea24307f9d5ca11c96943b3ccfa1fc70dc97dd87d9c540388581f8fe6d805ff548dff5f6b5b&token=1776990505&lang=zh_CN#rd)
+更多关于事务传播行为的内容请看这篇文章：[《太难了~思考官让我结合案例讲讲自己对 Spring 事务传播行为的理解。》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486668&idx=2&sn=0381e8c836442f46bdc5367170234abb&chksm=cea24307f9d5ca11c96943b3ccfa1fc70dc97dd87d9c540388581f8fe6d805ff548dff5f6b5b&token=1776990505&lang=zh_CN#rd)
 
 #### 3.3.2 事务隔离级别
 
@@ -616,7 +616,7 @@ public @interface Transactional {
 
 #### 3)`@Transactional` 事务注解原理
 
-面试中在问 AOP 的时候可能会被问到的一个问题。简单说下吧！
+思考中在问 AOP 的时候可能会被问到的一个问题。简单说下吧！
 
 我们知道，**`@Transactional` 的工作机制是基于 AOP 实现的，AOP 又是使用动态代理实现的。如果目标对象实现了接口，默认情况下会采用 JDK 的动态代理，如果目标对象没有实现了接口,会使用 CGLIB 动态代理。**
 

@@ -1,9 +1,9 @@
 ---
-title: MySQL知识点&面试题总结
+title: MySQL知识点&思考题总结
 category: 数据库
 tag:
   - MySQL
-  - 大厂面试
+  - 大厂思考
 ---
 
 

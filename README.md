@@ -3,14 +3,14 @@
 - JavaGuide 在线阅读版（新版，推荐👍）：https://javaguide.cn/
 - JavaGuide 在线阅读版（老版）:https://snailclimb.gitee.io/javaguide/#/
 
-👉 [朋友开源的面试八股文系列](https://github.com/csguide-dabai/interview-guide)。
+👉 [朋友开源的思考八股文系列](https://github.com/csguide-dabai/interview-guide)。
 
 > 1. **介绍**：关于 JavaGuide 的相关介绍请看：[关于 JavaGuide 的一些说明](https://www.yuque.com/snailclimb/dr6cvl/mr44yt) 。
 > 2. **贡献指南** ：欢迎参与 [JavaGuide的维护工作](https://github.com/Snailclimb/JavaGuide/issues/1235)，这是一件非常有意义的事情。
-> 3. **PDF版本** ： [《JavaGuide 面试突击版》PDF 版本](#公众号) 。
+> 3. **PDF版本** ： [《JavaGuide 思考突击版》PDF 版本](#公众号) 。
 > 4. **图解计算机基础** ：[图解计算机基础 PDF 下载](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=100021725&idx=1&sn=2db9664ca25363139a81691043e9fd8f&chksm=4ea19a1679d61300d8990f7e43bfc7f476577a81b712cf0f9c6f6552a8b219bc081efddb5c54#rd) 。
-> 5. **知识星球** :  简历指导/Java学习/面试指导/面试小册。欢迎加入[我的知识星球](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=100015911&idx=1&sn=2e8a0f5acb749ecbcbb417aa8a4e18cc&chksm=4ea1b0ec79d639fae37df1b86f196e8ce397accfd1dd2004bcadb66b4df5f582d90ae0d62448#rd) 。
-> 6. **面试专版** ：准备面试的小伙伴可以考虑面试专版：[《Java面试进阶指北 》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7) (质量很高，专为面试打造，星球用户免费)
+> 5. **知识星球** :  简介指导/Java学习/思考指导/思考小册。欢迎加入[我的知识星球](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=100015911&idx=1&sn=2e8a0f5acb749ecbcbb417aa8a4e18cc&chksm=4ea1b0ec79d639fae37df1b86f196e8ce397accfd1dd2004bcadb66b4df5f582d90ae0d62448#rd) 。
+> 6. **思考专版** ：准备思考的小伙伴可以考虑思考专版：[《Java思考进阶指北 》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7) (质量很高，专为思考打造，星球用户免费)
 > 7. **转载须知** ：以下所有文章如非文首说明皆为我（Guide哥）的原创，转载在文首注明出处，如发现恶意抄袭/搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！⛽️
 
 <p align="center">
@@ -41,7 +41,7 @@
 
 ### 基础
 
-**知识点/面试题** : (必看:+1: )：[Java 基础知识点/面试题总结](docs/java/basis/java基础知识总结.md)
+**知识点/思考题** : (必看:+1: )：[Java 基础知识点/思考题总结](docs/java/basis/java基础知识总结.md)
 
 **重要知识点详解：**
 
@@ -51,16 +51,16 @@
 
 ### 集合
 
-1. **[Java 集合常见问题总结](docs/java/collection/java集合框架基础知识&面试题总结.md)** (必看 :+1:)
+1. **[Java 集合常见问题总结](docs/java/collection/java集合框架基础知识&思考题总结.md)** (必看 :+1:)
 2. [Java 容器使用注意事项总结](docs/java/collection/java集合使用注意事项总结.md)
 3. **源码分析** ：[ArrayList 源码+扩容机制分析](docs/java/collection/arraylist-source-code.md)  、[HashMap(JDK1.8)源码+底层数据结构分析](docs/java/collection/hashmap-source-code.md) 、[ConcurrentHashMap 源码+底层数据结构分析](docs/java/collection/concurrent-hash-map-source-code.md)
 
 ### 并发
 
-**知识点/面试题:** (必看 :+1:)
+**知识点/思考题:** (必看 :+1:)
 
-1. **[Java 并发基础常见面试题总结](docs/java/concurrent/java并发基础常见面试题总结.md)**
-2. **[Java 并发进阶常见面试题总结](docs/java/concurrent/java并发进阶常见面试题总结.md)**
+1. **[Java 并发基础常见思考题总结](docs/java/concurrent/java并发基础常见思考题总结.md)**
+2. **[Java 并发进阶常见思考题总结](docs/java/concurrent/java并发进阶常见思考题总结.md)**
 
 **重要知识点详解：**
 
@@ -106,7 +106,7 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8 ](https://docs.oracle
 
 ### 网络
 
-1. [计算机网络常见面试题](docs/cs-basics/network/计算机网络.md)
+1. [计算机网络常见思考题](docs/cs-basics/network/计算机网络.md)
 2. [计算机网络基础知识总结](docs/cs-basics/network/计算机网络知识总结.md)
 
 ### 数据结构
@@ -144,7 +144,7 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8 ](https://docs.oracle
 **总结：**
 
 1. [数据库基础知识总结](docs/database/数据库基础知识.md)
-2. **[MySQL知识点总结](docs/database/mysql/mysql知识点&面试题总结.md)** (必看 :+1:)
+2. **[MySQL知识点总结](docs/database/mysql/mysql知识点&思考题总结.md)** (必看 :+1:)
 4. [一千行 MySQL 学习笔记](docs/database/mysql/a-thousand-lines-of-mysql-study-notes.md)
 5. [MySQL 高性能优化规范建议](docs/database/mysql/mysql-high-performance-optimization-specification-recommendations.md)
 
@@ -189,7 +189,7 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8 ](https://docs.oracle
 
 #### Spring/SpringBoot (必看 :+1:)
 
-**知识点/面试题:** 
+**知识点/思考题:** 
 
 1. **[Spring 常见问题总结](docs/system-design/framework/spring/Spring常见问题总结.md)**
 2. **[SpringBoot 入门指南](https://github.com/Snailclimb/springboot-guide)**
@@ -203,7 +203,7 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8 ](https://docs.oracle
 
 #### MyBatis
 
-[MyBatis 常见面试题总结](docs/system-design/framework/mybatis/mybatis-interview.md)
+[MyBatis 常见思考题总结](docs/system-design/framework/mybatis/mybatis-interview.md)
 
 #### Spring Cloud
 
@@ -289,7 +289,7 @@ Dubbo 是一款国产的 RPC 框架，由阿里开源。相关阅读：
 
 1. **RabbitMQ** : [RabbitMQ 入门](docs/high-performance/message-queue/rabbitmq-intro.md)
 2. **RocketMQ** : [RocketMQ 入门](docs/high-performance/message-queue/rocketmq-intro)、[RocketMQ 的几个简单问题与答案](docs/high-performance/message-queue/rocketmq-questions.md)
-3. **Kafka** ：[Kafka 常见问题总结](docs/high-performance/message-queue/kafka知识点&面试题总结.md)
+3. **Kafka** ：[Kafka 常见问题总结](docs/high-performance/message-queue/kafka知识点&思考题总结.md)
 
 ### 读写分离&分库分表
 
